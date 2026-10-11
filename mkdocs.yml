@@ -7,25 +7,31 @@ repo_name: red-privada-2g-osmocom
 theme:
   name: material
   language: es
+  font:
+    text: Newsreader
+    code: IBM Plex Mono
   palette:
     - scheme: default
-      primary: indigo
-      accent: deep purple
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Modo oscuro
     - scheme: slate
-      primary: indigo
-      accent: deep purple
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Modo claro
   features:
     - navigation.instant
-    - navigation.tracking
-    - navigation.top
-    - search.highlight
     - content.code.copy
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
@@ -43,3 +49,8 @@ nav:
   - 3. Despliegue: 03-despliegue.md
   - 4. Llamadas y KPIs: 04-llamadas-kpis.md
   - 5. Aviso legal: 05-aviso-legal.md
+
+
+
+
+

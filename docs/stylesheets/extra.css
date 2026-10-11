@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap');
+
+/* ---------- Paleta clara: papel y tinta ---------- */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #f4ede0;
+  --md-default-fg-color: #2b2420;
+  --md-default-fg-color--light: #6b5d52;
+  --md-default-fg-color--lighter: #a8998a;
+  --md-default-fg-color--lightest: #e3d9c6;
+  --md-primary-fg-color: #f4ede0;
+  --md-primary-bg-color: #2b2420;
+  --md-accent-fg-color: #b4532a;
+  --md-typeset-color: #2b2420;
+  --md-typeset-a-color: #b4532a;
+  --md-code-bg-color: #ebe2d1;
+  --md-code-fg-color: #2b2420;
+}
+
+/* ---------- Paleta oscura: café y ámbar ---------- */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #1c1814;
+  --md-default-fg-color: #ece3d3;
+  --md-default-fg-color--light: #b5a794;
+  --md-default-fg-color--lighter: #7d7163;
+  --md-default-fg-color--lightest: #332b24;
+  --md-primary-fg-color: #1c1814;
+  --md-primary-bg-color: #ece3d3;
+  --md-accent-fg-color: #e0a15a;
+  --md-typeset-color: #ece3d3;
+  --md-typeset-a-color: #e0a15a;
+  --md-code-bg-color: #261f1a;
+  --md-code-fg-color: #ece3d3;
+}
+
+/* ---------- Tipografía ---------- */
+.md-typeset {
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: "Fraunces", Georgia, serif;
+  color: var(--md-default-fg-color);
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h1 { font-weight: 400; font-size: 2.3em; }
+.md-typeset h2 { font-weight: 600; font-size: 1.5em; }
+.md-typeset h3 { font-weight: 600; font-size: 1.15em; }
+
+/* ---------- Estructura sobria ---------- */
+.md-grid { max-width: 62rem; }
+
+.md-header {
+  box-shadow: none;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-tabs { border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+
+.md-typeset a { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---------- Imágenes: marco fino, sin sombras ---------- */
+.md-typeset img {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.md-typeset em { color: var(--md-default-fg-color--light); }
+
+/* ---------- Tablas ---------- */
+.md-typeset table:not([class]) {
+  font-size: 0.85rem;
+  border: none;
+  box-shadow: none;
+}
+
+.md-typeset table:not([class]) th {
+  background: transparent;
+  border-bottom: 2px solid var(--md-default-fg-color);
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) td {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* ---------- Avisos planos ---------- */
+.md-typeset .admonition,
+.md-typeset details {
+  box-shadow: none;
+  border-radius: 2px;
+  border-width: 0 0 0 3px;
+  background: var(--md-code-bg-color);
+}
+
+/* ---------- Código ---------- */
+.md-typeset code,
+.md-typeset pre > code {
+  border-radius: 2px;
+}
