@@ -102,3 +102,69 @@
 .md-typeset pre > code {
   border-radius: 2px;
 }
+
+/* ---------- Título de la barra superior: sin negrita y con salto de línea ---------- */
+.md-header__inner {
+  height: auto;
+  min-height: 2.4rem;
+  padding: 0.4rem 0;
+}
+
+.md-header__title {
+  height: auto;
+  font-size: 0.78rem;
+  line-height: 1.25;
+}
+
+.md-header__ellipsis {
+  height: auto;
+}
+
+.md-header__topic {
+  white-space: normal;
+  max-width: 100%;
+}
+
+.md-header__topic:first-child {
+  position: relative;
+  font-weight: 400;
+}
+
+.md-header__topic + .md-header__topic {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* ---------- Título de la barra superior: sin negrita y con salto de línea ---------- */
+.md-header__inner {
+  height: auto;
+  min-height: 2.4rem;
+  padding: 0.4rem 0;
+}
+
+.md-header__title {
+  height: auto;
+  font-size: 0.78rem;
+  line-height: 1.25;
+}
+
+.md-header__ellipsis {
+  height: auto;
+}
+
+.md-header__topic {
+  white-space: normal;
+  max-width: 100%;
+}
+
+.md-header__topic:first-child {
+  position: relative;
+  font-weight: 400;
+}
+
+.md-header__topic + .md-header__topic {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

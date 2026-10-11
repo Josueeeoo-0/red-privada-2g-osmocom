@@ -1,8 +1,8 @@
-site_name: Red Privada 2G GSM con Osmocom y USRP B220
+site_name: "Red Privada 2G GSM con Osmocom y USRP B220: Validación de Autenticación Abierta con SIMs Comerciales"
 site_description: Documentación paso a paso de una red móvil 2G de laboratorio en DragonOS
 site_author: Josue Giraldo
-repo_url: https://github.com/Josueeeoo-0/red-privada-2g-osmocom
-repo_name: red-privada-2g-osmocom
+repo_url: https://github.com/Josueeeoo-0/red-privada-2g-osmocom-sim-comercial
+repo_name: red-privada-2g-osmocom-sim-comercial
 
 theme:
   name: material
