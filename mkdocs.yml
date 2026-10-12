@@ -44,13 +44,10 @@ markdown_extensions:
 
 nav:
   - Inicio: index.md
-  - 1. Requisitos: 01-requisitos.md
-  - 2. Configuración: 02-configuracion.md
-  - 3. Despliegue: 03-despliegue.md
-  - 4. Llamadas y KPIs: 04-llamadas-kpis.md
-  - 5. Aviso legal: 05-aviso-legal.md
-
-
-
-
+  - 1. Contexto: 01-contexto.md
+  - 2. Despliegue de la red: 02-despliegue.md
+  - 3. Configuración para Perú: 03-configuracion-peru.md
+  - 4. Configuración del teléfono: 04-telefono.md
+  - 5. Verificación: 05-verificacion.md
+  - 6. Aviso legal: 06-aviso-legal.md
 
